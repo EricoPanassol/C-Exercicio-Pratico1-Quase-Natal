@@ -20,3 +20,16 @@ No presente trabalho você deve elaborar um sistema composto por **5 LEDs e um b
 **Faça a entrega de uma pasta compactada (formato zip), contendo o código fonte E arquivo do simulador (.simu)**
 
 **NÃO USE a versão 1.0.0 do simulador! Utilize a versão ESTÁVEL (0.4.15)**
+
+# Como rodar
+
+1. Você deve alterar o tipo de linguagem interpretada para AVR (caso esteja usando o VSCode, esta opção está no canto inferior direito da tela)
+
+2. Na pasta raiz do projeto execute o comando `make` para compilar o código
+    ```bash
+    make
+    ```
+
+3. No simulador, carregue o circuito localizado na pasta `Circuit` e no `MCU` carregue o arquivo `main.hex`
+
+Pronto. Seu Natal está garantido!
